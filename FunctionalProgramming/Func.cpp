@@ -14,3 +14,4 @@ template <typename T, typename U > U Func<T, U> :: ApplyLambda(std::function<U()
 {
 	func();
 }
+

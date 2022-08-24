@@ -9,12 +9,12 @@
 /* project - kan waxa uu ka hadlaya functional programming 
 sida u shaqeeyo anigo adeesanaya lambda expression iyo 
 functional pointers oo aad ku adeesan karto C iyo C++ 
-(micnaha lambda expression iyo function pointers waxad ku adeesan karta C++ halka function pointers aad ku adeesan karto C,
+(micnaha lambda expression iyo function pointers waxad ku adeesan karta C++ halka function pointers kaliya aad ku adeesan karto C,
 sido kale qaabka loo adeesado functional header iyo functional class-ka
 */
 
 template <typename U , typename T>
-struct Func {
+class Func {
 public:
 	Func(int x);
 		// qaybtan waxan adeesaday function pointer waxan ugu talagay inan pass gareeyo higher functionka apply
